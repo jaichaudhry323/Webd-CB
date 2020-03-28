@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title> 
+     <script src="jquery.js"></script>
+<!--THIS SCRIPT MAKES GLOBAL IO FUNCTION AVAILABLE TO US ON CLIENT SIDE-->   
+ <script src="/socket.io/socket.io.js"></script><!--client side library-->
+
+ <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>socket.io example</h1>
+    <input type="text" id="msgbox">
+    <button id="sendmsg">SEND</button>
+    <ul id="msglist"></ul> 
+</body>
+</html>
